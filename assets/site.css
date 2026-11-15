@@ -45,6 +45,7 @@ body {
   font: 400 1.0625rem/1.6 var(--font); text-rendering: optimizeLegibility;
 }
 img, svg { display: block; max-width: 100%; }
+img { height: auto; }
 a { color: var(--indigo); text-underline-offset: .18em; }
 a:hover { color: var(--indigo-strong); }
 :focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; border-radius: 6px; }
