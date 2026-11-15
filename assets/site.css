@@ -237,6 +237,35 @@ p { margin: 0 0 1em; }
 .toc li { margin: .25em 0; break-inside: avoid; }
 .legal section:target h2 { color: var(--indigo); }
 
+/* ---------------------------------------------------------------- guides (Ratgeber) */
+.guide { padding: 40px 0 80px; max-width: 760px; }
+.guide h1 { font-size: clamp(2rem, 5vw, 2.8rem); }
+.guide h2 { font-size: 1.45rem; margin-top: 2em; }
+.guide .kicker { margin-bottom: 12px; }
+.guide .lead { margin-top: 1.2em; }
+.guide ul, .guide ol { padding-left: 1.3em; }
+.guide li { margin: .45em 0; }
+.guide code { font: 600 .86em/1.4 var(--mono); background: var(--indigo-soft); color: var(--indigo-deep); padding: 1px 6px; border-radius: 6px; word-break: break-all; }
+.guide-steps li::marker { color: var(--indigo); font-weight: 800; }
+.table-wrap { overflow-x: auto; margin: 0 0 1.2em; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+.table-wrap table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.table-wrap th, .table-wrap td { padding: 10px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+.table-wrap tr:last-child td { border-bottom: 0; }
+.table-wrap th { background: var(--indigo-soft); color: var(--indigo-deep); font-weight: 700; }
+.table-wrap code { background: none; padding: 0; }
+.guide-figure { margin: 28px 0; }
+.guide-figure img { width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--line); }
+.guide-figure figcaption { margin-top: 10px; color: var(--ink-soft); font-size: .92rem; }
+.guide-cta {
+  display: grid; gap: 18px; align-items: center; margin: 36px 0 8px; padding: 28px;
+  border-radius: 24px; background: var(--indigo-soft); border: 1px solid color-mix(in srgb, var(--indigo) 20%, transparent);
+}
+@media (min-width: 640px) { .guide-cta { grid-template-columns: auto 1fr; padding: 32px 36px; } }
+.guide-cta-logo .logo { width: 64px; height: 64px; }
+.guide-cta h2 { margin: 0 0 .3em; font-size: 1.35rem; }
+.guide-cta p { color: var(--ink-soft); }
+.guide-faq { margin-top: 2.4em; }
+
 /* ---------------------------------------------------------------- footer */
 .site-footer { padding: 40px 0 48px; border-top: 1px solid var(--line); background: var(--card); color: var(--ink-soft); font-size: .95rem; }
 .footer-row { display: grid; gap: 20px; }

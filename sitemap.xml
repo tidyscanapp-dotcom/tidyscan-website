@@ -192,4 +192,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://tidyscan.org/nl/privacy/"/>
     <xhtml:link rel="alternate" hreflang="pl" href="https://tidyscan.org/pl/privacy/"/>
   </url>
+  <url>
+    <loc>https://tidyscan.org/de/qr-rechnung-scannen/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/qr-rechnung-scannen/"/>
+  </url>
 </urlset>
