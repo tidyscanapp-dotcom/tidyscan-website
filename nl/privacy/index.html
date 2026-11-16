@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="nl_NL">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="../../assets/site.css?v=8110bff9">
+  <link rel="stylesheet" href="../../assets/site.css?v=f6ff27e7">
 </head>
 <body>
   <a class="skip" href="#main">Naar de inhoud</a>
@@ -57,7 +57,7 @@
   </header>
   <main id="main" class="wrap legal">
     <h1>Privacyverklaring</h1>
-    <p class="updated">Laatst bijgewerkt: 13 november 2026</p>
+    <p class="updated">Laatst bijgewerkt: 16 november 2026</p>
     <p class="lead">Deze privacyverklaring legt uit welke persoonsgegevens de Android-app TidyScan en deze website verwerken, waarvoor, en welke rechten je hebt. Ze is gebaseerd op de Zwitserse federale wet inzake gegevensbescherming (DSG) en, waar van toepassing, de Algemene verordening gegevensbescherming van de EU (AVG).</p>
     <p class="note">Dit is een vertaling. Bij verschillen geldt de Duitse versie.</p>
     <nav class="toc card" aria-label="Inhoud"><p><strong>Inhoud</strong></p><ul><li><a href="#controller">1. Verantwoordelijke</a></li><li><a href="#summary">2. In het kort</a></li><li><a href="#device">3. Gegevens op je telefoon</a></li><li><a href="#scanning">4. Scannen en offline tekstherkenning</a></li><li><a href="#ai">5. Optionele AI-benoeming (Google Gemini)</a></li><li><a href="#purchases">6. Abonnementen en aankopen</a></li><li><a href="#security">7. Server, beveiliging en logboeken</a></li><li><a href="#providers">8. Dienstverleners en doorgifte naar het buitenland</a></li><li><a href="#retention">9. Bewaartermijnen</a></li><li><a href="#delete">10. Je gegevens verwijderen</a></li><li><a href="#website">11. Deze website</a></li><li><a href="#rights">12. Je rechten</a></li><li><a href="#children">13. Kinderen</a></li><li><a href="#changes">14. Wijzigingen</a></li><li><a href="#imprint">15. Colofon</a></li></ul></nav>
@@ -82,12 +82,12 @@
 <p>Het verzoek loopt via de TidyScan-server (Google Cloud Functions, regio Zürich, Zwitserland) naar de Gemini-API. De server stuurt de inhoud door en slaat die niet op. Hij slaat alleen op:</p>
 <ul>
 <li>een willekeurige, anonieme gebruikers-ID (Firebase Anonymous Authentication),</li>
-<li>je abonnement, het aantal AI-scans per maand en eventuele extra scans,</li>
+<li>je abonnement, het aantal AI-scans per maand (20 in de eerste maand, daarna 10) en eventuele extra scans,</li>
 <li>aankooptokens en product-ID’s van Google Play, om abonnementen en aankopen te controleren.</li>
 </ul>
 <p>TidyScan gebruikt de betaalde versie van de Gemini-API. Volgens de <a href="https://ai.google.dev/gemini-api/terms">aanvullende voorwaarden van de Gemini-API</a> gebruikt Google de inhoud niet om zijn producten te verbeteren. Google logt verzoeken en antwoorden gedurende een beperkte tijd, uitsluitend om misbruik op te sporen en voor wettelijke verplichtingen.</p>
 <h3>Met je eigen Gemini-API-sleutel</h3>
-<p>Het verzoek gaat rechtstreeks van je telefoon naar Google; de TidyScan-server is niet betrokken. De voorwaarden van je sleutel zijn van toepassing. Let op: voor gebruikers buiten Zwitserland, de EER en het Verenigd Koninkrijk mag Google inhoud die met een sleutel uit de gratis versie wordt verstuurd, gebruiken om zijn producten te verbeteren, en kunnen mensen die lezen.</p></section><section id="purchases"><h2>6. Abonnementen en aankopen</h2>
+<p>Het verzoek gaat rechtstreeks van je telefoon naar Google; de TidyScan-server is niet betrokken. De voorwaarden van je sleutel zijn van toepassing. Let op: voor gebruikers buiten Zwitserland, de EER en het Verenigd Koninkrijk mag Google inhoud die met een sleutel uit de gratis versie wordt verstuurd, gebruiken om zijn producten te verbeteren, en kunnen mensen die lezen. Met je eigen sleutel telt TidyScan geen AI-scans; alleen de limieten van je sleutel bij Google gelden.</p></section><section id="purchases"><h2>6. Abonnementen en aankopen</h2>
 <p>Betalingen worden door Google Play verwerkt volgens de voorwaarden van Google. TidyScan ontvangt nooit je betaalgegevens. Om je abonnement te activeren, stuurt de app het aankooptoken naar de TidyScan-server, die het controleert bij de Google Play Developer API.</p>
 <p>Rechtsgrond: uitvoering van de overeenkomst (art. 6, lid 1, onder b AVG).</p></section><section id="security"><h2>7. Server, beveiliging en logboeken</h2>
 <p>Alle verbindingen zijn versleuteld (HTTPS). Apps hebben geen directe toegang tot de database (Cloud Firestore, regio Zürich), alleen de server. Firebase App Check met Google Play Integrity controleert bij Google of verzoeken van de echte app komen.</p>

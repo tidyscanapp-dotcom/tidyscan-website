@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="../../assets/site.css?v=8110bff9">
+  <link rel="stylesheet" href="../../assets/site.css?v=f6ff27e7">
 </head>
 <body>
   <a class="skip" href="#main">Pular para o conteúdo</a>
@@ -57,7 +57,7 @@
   </header>
   <main id="main" class="wrap legal">
     <h1>Política de privacidade</h1>
-    <p class="updated">Última atualização: 13 de novembro de 2026</p>
+    <p class="updated">Última atualização: 16 de novembro de 2026</p>
     <p class="lead">Esta política de privacidade explica quais dados pessoais o app para Android TidyScan e este site tratam, com que finalidade e quais são os seus direitos. Ela se baseia na Lei Federal suíça de Proteção de Dados (LPD) e, quando aplicável, no Regulamento Geral sobre a Proteção de Dados da UE (RGPD). Para usuários no Brasil, aplica-se também a Lei Geral de Proteção de Dados (LGPD).</p>
     <p class="note">Esta é uma tradução. Em caso de divergência, prevalece a versão em alemão.</p>
     <nav class="toc card" aria-label="Conteúdo"><p><strong>Conteúdo</strong></p><ul><li><a href="#controller">1. Controlador</a></li><li><a href="#summary">2. O essencial</a></li><li><a href="#device">3. Dados no seu celular</a></li><li><a href="#scanning">4. Digitalização e reconhecimento de texto off-line</a></li><li><a href="#ai">5. Nomes com IA opcionais (Google Gemini)</a></li><li><a href="#purchases">6. Assinaturas e compras</a></li><li><a href="#security">7. Servidor, segurança e registros</a></li><li><a href="#providers">8. Prestadores de serviço e transferência internacional</a></li><li><a href="#retention">9. Por quanto tempo os dados são mantidos</a></li><li><a href="#delete">10. Excluir seus dados</a></li><li><a href="#website">11. Este site</a></li><li><a href="#rights">12. Seus direitos</a></li><li><a href="#children">13. Crianças e adolescentes</a></li><li><a href="#changes">14. Alterações</a></li><li><a href="#imprint">15. Informações legais</a></li></ul></nav>
@@ -82,12 +82,12 @@
 <p>A solicitação passa pelo servidor do TidyScan (Google Cloud Functions, região Zurique, Suíça) até a API do Gemini. O servidor encaminha o conteúdo sem armazená-lo. Ele armazena apenas:</p>
 <ul>
 <li>um ID de usuário aleatório e anônimo (Firebase Anonymous Authentication),</li>
-<li>sua assinatura, o número de digitalizações com IA por mês e eventuais digitalizações extras,</li>
+<li>sua assinatura, o número de digitalizações com IA por mês (20 no primeiro mês, depois 10) e eventuais digitalizações extras,</li>
 <li>tokens de compra e IDs de produto do Google Play, para verificar assinaturas e compras.</li>
 </ul>
 <p>O TidyScan usa o nível pago da API do Gemini. Segundo os <a href="https://ai.google.dev/gemini-api/terms">termos adicionais da API do Gemini</a>, o Google não usa o conteúdo para melhorar seus produtos. O Google registra solicitações e respostas por um período limitado, apenas para detectar abusos e cumprir obrigações legais.</p>
 <h3>Com sua própria chave de API do Gemini</h3>
-<p>A solicitação vai diretamente do seu celular ao Google; o servidor do TidyScan não participa. Valem as condições da sua chave. Atenção: para usuários fora da Suíça, do EEE e do Reino Unido, como no Brasil, o Google pode usar o conteúdo enviado com uma chave do nível gratuito para melhorar seus produtos, e pessoas podem lê-lo.</p></section><section id="purchases"><h2>6. Assinaturas e compras</h2>
+<p>A solicitação vai diretamente do seu celular ao Google; o servidor do TidyScan não participa. Valem as condições da sua chave. Atenção: para usuários fora da Suíça, do EEE e do Reino Unido, como no Brasil, o Google pode usar o conteúdo enviado com uma chave do nível gratuito para melhorar seus produtos, e pessoas podem lê-lo. Com sua própria chave, o TidyScan não conta digitalizações com IA; valem apenas os limites da sua chave no Google.</p></section><section id="purchases"><h2>6. Assinaturas e compras</h2>
 <p>Os pagamentos são processados pelo Google Play conforme os termos do Google. O TidyScan nunca recebe seus dados de pagamento. Para ativar sua assinatura, o app envia o token de compra ao servidor do TidyScan, que o verifica na Google Play Developer API.</p>
 <p>Base legal: execução do contrato (art. 6.º, n.º 1, alínea b, do RGPD; art. 7.º, V, da LGPD).</p></section><section id="security"><h2>7. Servidor, segurança e registros</h2>
 <p>Todas as conexões são criptografadas (HTTPS). Os apps não podem acessar o banco de dados diretamente (Cloud Firestore, região Zurique), somente o servidor. O Firebase App Check com o Google Play Integrity verifica junto ao Google se as solicitações vêm do app autêntico.</p>

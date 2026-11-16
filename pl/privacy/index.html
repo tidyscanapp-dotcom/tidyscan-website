@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="pl_PL">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="../../assets/site.css?v=8110bff9">
+  <link rel="stylesheet" href="../../assets/site.css?v=f6ff27e7">
 </head>
 <body>
   <a class="skip" href="#main">Przejdź do treści</a>
@@ -57,7 +57,7 @@
   </header>
   <main id="main" class="wrap legal">
     <h1>Polityka prywatności</h1>
-    <p class="updated">Ostatnia aktualizacja: 13 listopada 2026</p>
+    <p class="updated">Ostatnia aktualizacja: 16 listopada 2026</p>
     <p class="lead">Niniejsza polityka prywatności wyjaśnia, jakie dane osobowe przetwarzają aplikacja na Androida TidyScan i ta strona internetowa, w jakim celu oraz jakie masz prawa. Opiera się na szwajcarskiej federalnej ustawie o ochronie danych (DSG) oraz, w zakresie, w jakim ma zastosowanie, na unijnym ogólnym rozporządzeniu o ochronie danych (RODO).</p>
     <p class="note">To jest tłumaczenie. W razie rozbieżności rozstrzyga wersja niemiecka.</p>
     <nav class="toc card" aria-label="Spis treści"><p><strong>Spis treści</strong></p><ul><li><a href="#controller">1. Administrator</a></li><li><a href="#summary">2. Najważniejsze w skrócie</a></li><li><a href="#device">3. Dane na Twoim telefonie</a></li><li><a href="#scanning">4. Skanowanie i rozpoznawanie tekstu offline</a></li><li><a href="#ai">5. Opcjonalne nazywanie przez AI (Google Gemini)</a></li><li><a href="#purchases">6. Subskrypcje i zakupy</a></li><li><a href="#security">7. Serwer, bezpieczeństwo i logi</a></li><li><a href="#providers">8. Usługodawcy i przekazywanie danych za granicę</a></li><li><a href="#retention">9. Okres przechowywania</a></li><li><a href="#delete">10. Usuwanie Twoich danych</a></li><li><a href="#website">11. Ta strona internetowa</a></li><li><a href="#rights">12. Twoje prawa</a></li><li><a href="#children">13. Dzieci</a></li><li><a href="#changes">14. Zmiany</a></li><li><a href="#imprint">15. Nota prawna</a></li></ul></nav>
@@ -82,12 +82,12 @@
 <p>Zapytanie trafia przez serwer TidyScan (Google Cloud Functions, region Zurych, Szwajcaria) do API Gemini. Serwer przekazuje treść dalej i jej nie zapisuje. Przechowuje wyłącznie:</p>
 <ul>
 <li>losowy, anonimowy identyfikator użytkownika (Firebase Anonymous Authentication),</li>
-<li>Twoją subskrypcję, liczbę skanów AI w miesiącu i ewentualne skany dodatkowe,</li>
+<li>Twoją subskrypcję, liczbę skanów AI w miesiącu (20 w pierwszym miesiącu, potem 10) i ewentualne skany dodatkowe,</li>
 <li>tokeny zakupu i identyfikatory produktów z Google Play, aby weryfikować subskrypcje i zakupy.</li>
 </ul>
 <p>TidyScan korzysta z płatnej wersji API Gemini. Zgodnie z <a href="https://ai.google.dev/gemini-api/terms">dodatkowymi warunkami API Gemini</a> Google nie wykorzystuje tych treści do ulepszania swoich produktów. Google rejestruje zapytania i odpowiedzi przez ograniczony czas, wyłącznie w celu wykrywania nadużyć i wypełniania obowiązków prawnych.</p>
 <h3>Z własnym kluczem API Gemini</h3>
-<p>Zapytanie trafia bezpośrednio z Twojego telefonu do Google; serwer TidyScan nie bierze w tym udziału. Obowiązują warunki Twojego klucza. Uwaga: w przypadku użytkowników spoza Szwajcarii, EOG i Wielkiej Brytanii Google może wykorzystywać treści wysłane z kluczem w wersji bezpłatnej do ulepszania swoich produktów, a ludzie mogą je czytać.</p></section><section id="purchases"><h2>6. Subskrypcje i zakupy</h2>
+<p>Zapytanie trafia bezpośrednio z Twojego telefonu do Google; serwer TidyScan nie bierze w tym udziału. Obowiązują warunki Twojego klucza. Uwaga: w przypadku użytkowników spoza Szwajcarii, EOG i Wielkiej Brytanii Google może wykorzystywać treści wysłane z kluczem w wersji bezpłatnej do ulepszania swoich produktów, a ludzie mogą je czytać. Z własnym kluczem TidyScan nie liczy skanów AI; obowiązują tylko limity Twojego klucza w Google.</p></section><section id="purchases"><h2>6. Subskrypcje i zakupy</h2>
 <p>Płatności obsługuje Google Play na warunkach Google. TidyScan nigdy nie otrzymuje Twoich danych płatniczych. Aby aktywować subskrypcję, aplikacja wysyła token zakupu do serwera TidyScan, który weryfikuje go w Google Play Developer API.</p>
 <p>Podstawa prawna: wykonanie umowy (art. 6 ust. 1 lit. b RODO).</p></section><section id="security"><h2>7. Serwer, bezpieczeństwo i logi</h2>
 <p>Wszystkie połączenia są szyfrowane (HTTPS). Aplikacje nie mają bezpośredniego dostępu do bazy danych (Cloud Firestore, region Zurych), ma go tylko serwer. Firebase App Check z Google Play Integrity sprawdza w Google, czy zapytania pochodzą z oryginalnej aplikacji.</p>

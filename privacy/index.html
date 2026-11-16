@@ -33,7 +33,7 @@
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="../assets/site.css?v=8110bff9">
+  <link rel="stylesheet" href="../assets/site.css?v=f6ff27e7">
   <script src="../assets/lang.js"></script>
 </head>
 <body>
@@ -58,7 +58,7 @@
   </header>
   <main id="main" class="wrap legal">
     <h1>Privacy policy</h1>
-    <p class="updated">Last updated: 13 November 2026</p>
+    <p class="updated">Last updated: 16 November 2026</p>
     <p class="lead">This privacy policy explains which personal data the TidyScan Android app and this website process, for what purpose, and what rights you have. It is based on the Swiss Federal Act on Data Protection (FADP) and, where it applies, the EU General Data Protection Regulation (GDPR).</p>
     <p class="note">This is a translation. If versions differ, the German version applies.</p>
     <nav class="toc card" aria-label="Contents"><p><strong>Contents</strong></p><ul><li><a href="#controller">1. Who is responsible</a></li><li><a href="#summary">2. In brief</a></li><li><a href="#device">3. Data on your phone</a></li><li><a href="#scanning">4. Scanning and offline text recognition</a></li><li><a href="#ai">5. Optional AI naming (Google Gemini)</a></li><li><a href="#purchases">6. Subscriptions and purchases</a></li><li><a href="#security">7. Server, security and logs</a></li><li><a href="#providers">8. Service providers and transfers abroad</a></li><li><a href="#retention">9. How long data is kept</a></li><li><a href="#delete">10. Delete your data</a></li><li><a href="#website">11. This website</a></li><li><a href="#rights">12. Your rights</a></li><li><a href="#children">13. Children</a></li><li><a href="#changes">14. Changes</a></li><li><a href="#imprint">15. Legal notice</a></li></ul></nav>
@@ -83,12 +83,12 @@
 <p>The request goes through the TidyScan server (Google Cloud Functions, region Zurich, Switzerland) to the Gemini API. The server forwards the content and does not store it. It stores only:</p>
 <ul>
 <li>a random, anonymous user ID (Firebase Anonymous Authentication),</li>
-<li>your plan, the number of AI scans per month and any extra scans,</li>
+<li>your plan, the number of AI scans per month (20 in the first month, then 10) and any extra scans,</li>
 <li>Google Play purchase tokens and product IDs, to verify subscriptions and purchases.</li>
 </ul>
 <p>TidyScan uses the paid tier of the Gemini API. Under the <a href="https://ai.google.dev/gemini-api/terms">Gemini API Additional Terms</a>, Google does not use the content to improve its products. Google logs requests and responses for a limited period, solely to detect abuse and for legal obligations.</p>
 <h3>With your own Gemini API key</h3>
-<p>The request goes directly from your phone to Google; the TidyScan server is not involved. The terms of your key apply. Please note: for users outside Switzerland, the EEA and the United Kingdom, Google may use content sent with a key in its free tier to improve its products, and human reviewers may read it.</p></section><section id="purchases"><h2>6. Subscriptions and purchases</h2>
+<p>The request goes directly from your phone to Google; the TidyScan server is not involved. The terms of your key apply. Please note: for users outside Switzerland, the EEA and the United Kingdom, Google may use content sent with a key in its free tier to improve its products, and human reviewers may read it. With your own key, TidyScan does not count AI scans; only the limits of your key at Google apply.</p></section><section id="purchases"><h2>6. Subscriptions and purchases</h2>
 <p>Payments are processed by Google Play under Google’s terms. TidyScan never receives your payment details. To activate your plan, the app sends the purchase token to the TidyScan server, which checks it with the Google Play Developer API.</p>
 <p>Legal basis: performance of the contract (Art. 6(1)(b) GDPR).</p></section><section id="security"><h2>7. Server, security and logs</h2>
 <p>All connections are encrypted (HTTPS). The database (Cloud Firestore, region Zurich) cannot be accessed by apps directly, only by the server. Firebase App Check with Google Play Integrity checks with Google that requests come from the genuine app.</p>
