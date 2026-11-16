@@ -193,8 +193,23 @@
     <xhtml:link rel="alternate" hreflang="pl" href="https://tidyscan.org/pl/privacy/"/>
   </url>
   <url>
+    <loc>https://tidyscan.org/de/belege-steuererklaerung/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/belege-steuererklaerung/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/de/dokumente-scannen-ohne-cloud/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/dokumente-scannen-ohne-cloud/"/>
+  </url>
+  <url>
     <loc>https://tidyscan.org/de/qr-rechnung-scannen/</loc>
     <lastmod>2026-11-16</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/qr-rechnung-scannen/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/de/ratgeber/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/ratgeber/"/>
   </url>
 </urlset>
