@@ -195,21 +195,109 @@
   <url>
     <loc>https://tidyscan.org/de/belege-steuererklaerung/</loc>
     <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/tax-return-documents/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/belege-steuererklaerung/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/tax-return-documents/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/tax-return-documents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/belege-steuererklaerung/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/de/dokumente-richtig-benennen/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/file-naming-convention/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/dokumente-richtig-benennen/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/file-naming-convention/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/file-naming-convention/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/dokumente-richtig-benennen/"/>
   </url>
   <url>
     <loc>https://tidyscan.org/de/dokumente-scannen-ohne-cloud/</loc>
     <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/scan-documents-without-cloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/dokumente-scannen-ohne-cloud/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/scan-documents-without-cloud/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/scan-documents-without-cloud/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/dokumente-scannen-ohne-cloud/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/de/google-drive-scanner/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/google-drive-scanner/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/google-drive-scanner/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/google-drive-scanner/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/google-drive-scanner/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/google-drive-scanner/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/de/ordnerstruktur-vorlage/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/folder-structure-template/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/ordnerstruktur-vorlage/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/folder-structure-template/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/folder-structure-template/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/ordnerstruktur-vorlage/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/de/papierloses-buero/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/paperless-home-office/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/papierloses-buero/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/paperless-home-office/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/paperless-home-office/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/papierloses-buero/"/>
   </url>
   <url>
     <loc>https://tidyscan.org/de/qr-rechnung-scannen/</loc>
     <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/swiss-qr-bill/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/qr-rechnung-scannen/"/>
   </url>
   <url>
+    <loc>https://tidyscan.org/swiss-qr-bill/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/swiss-qr-bill/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/qr-rechnung-scannen/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/de/rechnungen-scannen/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/scan-invoices/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/rechnungen-scannen/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/scan-invoices/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/scan-invoices/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/rechnungen-scannen/"/>
+  </url>
+  <url>
+    <loc>https://tidyscan.org/ratgeber/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/ratgeber/"/>
+  </url>
+  <url>
     <loc>https://tidyscan.org/de/ratgeber/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tidyscan.org/ratgeber/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://tidyscan.org/de/ratgeber/"/>
   </url>
 </urlset>
